@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    height: auto;
+    background-color:	#1E90FF;
+    background-size: cover;
+}
+
+div.header
+{
+    font-family: Salsa;
+    font-size: 28px;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+div.menu
+{   
+    font-family: Mako;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase   ;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+  
+li 
+{
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child 
+{
+    border-right: none;
+}
+  
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) 
+{
+    background-color: white;
+    color: black;
+}
+div.body
+{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 20px;
+    float: left;
+    background-color: #F0FFFF;
+    margin: 20px;
+    width: 95%;
+    height: auto;
+    border: 3px solid #a3a3a3;
+    margin-bottom: 200px;
+    font-family: "Crimson Text";
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.form
+{
+    position: absolute;
+    padding: 20px;
+}
+img
+{
+    height: 300px;
+    width: 250px;
+}
+form
+{
+    padding: 50px;
+    height: auto;
+    width: auto;
+    border: 2px solid #e3e3e3 ;
+    border-radius: 10px;
+    background-color: #F0FFFF ;
+}
+span
+{
+    color: rgb(32, 36, 32);
+}
+input.form
+{
+    padding: 8px;
+    border: 1.5px solid #a3a3a3;
+    background-color: #F0FFFF ;
+    border-radius: 5px;
+    width: 250px;
+}
+div.footer
+{
+    left: 0;
+    bottom: 0;
+    height: auto;
+    background-color:rgba(71, 58, 51, 0.726);
+    color: white;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    padding-left: 25%;
+}
+
+div.footer p
+{
+    padding: 10px;
+    float: left;
+}
+div.footer a
+{
+    color: white;
+    padding: 10px;
+    float: left;
+}
+iframe
+{
+    height: 300px;
+    width: 400px;
+    border-radius: 0px;
+}
+table
+{
+    margin: 50px;
+    padding: 25px;
+    border-collapse: collapse;
+    background-color: white;
+    width: 80%;
+}
+th, td
+{
+    border: 1px solid black ;
+    text-align: left;
+    padding: 8px;   
+}
+tr:nth-child(even) 
+{
+    background-color: whitesmoke;
+}
+button
+{
+    padding: 10px;
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid #1E90FF;
+}
+button:hover
+{
+    background-color: #1E90FF;
+    color: white;
+}
+
+
